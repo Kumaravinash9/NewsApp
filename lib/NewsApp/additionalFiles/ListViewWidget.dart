@@ -19,7 +19,7 @@ Widget content(Articles articl, BuildContext context)  {
                 child: InkWell(
                                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.end,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                      children: [
                       Container(
                       height: 250,
@@ -32,6 +32,7 @@ Widget content(Articles articl, BuildContext context)  {
                       SizedBox(height: 12,),
                       Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(articl.source.name.toString(),style: TextStyle(fontSize: 20,color: Colors.black,fontWeight: FontWeight.bold),),
                               Text(DateFormat('h:mm a').format(DateFormat("yyyy-MM-dd hh:mm:ss").parse(articl.publishedAt.substring(0,10)+" "+articl.publishedAt.substring(12)))),
