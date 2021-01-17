@@ -67,12 +67,7 @@ class _NewsAppState extends State<NewsApp> {
       body:Center(child: app(datai),),
        floatingActionButton:FloatingActionButton(onPressed:(){
          setState(() {
-             if(value==1)
-             datai=Network("http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=f6044640d16f4b69a3332b7fed961f72").getData();
-             else if(value==0)
-             datai=Network("http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=f6044640d16f4b69a3332b7fed961f72").getData();
-             else 
-             datai= Network("http://newsapi.org/v2/everything?q=apple&from=2020-10-14&to=2020-10-14&sortBy=popularity&apiKey=f6044640d16f4b69a3332b7fed961f72").getData();
+        
          });
        
        },
