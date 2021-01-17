@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:start/NewsApp/JsonFile/Json.dart';
-import 'ListViewWidget.dart';
+import 'package:start/NewsApp/Jsons/Json.dart';
+import 'ListView.dart';
 
 Widget app(Future<News>data)
         {
