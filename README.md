@@ -1,4 +1,4 @@
-# start
+# NewsApp
 
 **NewsApp is the App which gets the data form the API which is shared by News API.**
 
@@ -22,14 +22,12 @@
 
 ![FlutterNewsApp2](https://user-images.githubusercontent.com/64456168/96306232-eb6f4a00-101c-11eb-811e-9a68b25dabb4.jpeg)
 
-![](flutter_03.png)'
+
 
 4.**NEWS DESCRIPTION**
 
-![FlutterNewsApp4](https://user-images.githubusercontent.com/64456168/96306221-e1e5e200-101c-11eb-9a0d-213ced0bd3a5.jpeg)
 
-
-![](flutter_04.png)
+![](flutter_05.png)
 
 
 
